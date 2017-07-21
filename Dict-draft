@@ -1,0 +1,8 @@
+knownfoods = {milk: 8, watermelon: 0, granola bar: 2, dried mango: 7, sunflower seeds: 7}
+consumed="milk"
+if consumed in foods:
+    print "You ate",
+    print foods[consumed],
+    print "grams of protein"
+foods["watermelon"]=0
+print foods
